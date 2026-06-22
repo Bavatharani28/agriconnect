@@ -1,0 +1,149 @@
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:22px 70px;
+}
+
+.nav-links{
+    display:flex;
+    align-items:center;
+    gap:30px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#333;
+    font-weight:500;
+}
+
+.nav-links button{
+    background:var(--primary-green);
+    color:white;
+    border:none;
+    padding:12px 24px;
+    border-radius:12px;
+    cursor:pointer;
+}
+
+.hero{
+    min-height:85vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 70px;
+}
+
+.hero-left{
+    width:50%;
+}
+
+.hero-left h1{
+    font-size:58px;
+    line-height:1.2;
+    margin-bottom:24px;
+}
+
+.hero-left p{
+    font-size:20px;
+    color:#555;
+    margin-bottom:32px;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:20px;
+}
+
+.hero-buttons button{
+    padding:16px 28px;
+    border:none;
+    border-radius:14px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.hero-buttons button:first-child{
+    background:var(--primary-green);
+    color:white;
+}
+
+.hero-buttons button:last-child{
+    background:white;
+    box-shadow:var(--shadow);
+}
+
+.hero-right{
+    width:40%;
+    display:flex;
+    justify-content:center;
+}
+
+.hero-card{
+    width:350px;
+    height:350px;
+    background:white;
+    border-radius:32px;
+    box-shadow:var(--shadow);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:28px;
+    font-weight:bold;
+}
+.dashboard-card{
+    width:380px;
+    padding:28px;
+    background:rgba(255,255,255,0.85);
+    backdrop-filter: blur(12px);
+    border-radius:28px;
+    box-shadow:0 12px 35px rgba(0,0,0,0.12);
+}
+
+.dashboard-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:24px;
+}
+
+.dashboard-header h3{
+    font-size:24px;
+}
+
+.dashboard-header span{
+    background:#d7f7dc;
+    color:#2E7D32;
+    padding:8px 14px;
+    border-radius:20px;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.stat-box{
+    background:white;
+    padding:20px;
+    border-radius:20px;
+    margin-bottom:16px;
+    box-shadow:0 5px 18px rgba(0,0,0,0.05);
+}
+
+.stat-box h4{
+    color:#666;
+    font-size:16px;
+    margin-bottom:8px;
+}
+
+.stat-box p{
+    font-size:32px;
+    font-weight:bold;
+    color:var(--primary-green);
+}
+.dashboard-card:hover{
+    transform:translateY(-8px);
+    transition:0.4s ease;
+}
+button:hover{
+    transform:scale(1.04);
+    transition:0.3s ease;
+}
