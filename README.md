@@ -16,10 +16,10 @@ AgriConnect is a smart agricultural resource management platform that connects f
 
 ### Frontend
 
-* React.js
 * HTML
 * CSS
 * JavaScript
+* REACT.JS
 
 ### Backend
 
